@@ -15,3 +15,14 @@ This repo is going to be used for having a history of what a I have studied/prac
     - Running
     - Terminated
 - Swapping
+
+### 26/Fev
+
+* Saindo um pouco dos estudos de linguagens de programação, resolvi embarcar no mundo do terminal usando linux para testar:
+- Inicialmente resolvi relembrar alguns comandos: 
+    - lsb_release -dc //exibe qual a versão do linux
+    - touch nomeArquivo //cria um arquivo vazio
+    - pwd //PrintWorkingDirectory - exibe o diretório atual
+    - cat nomeArquivo //concat - concatena arquivo/exibe-os no terminal
+    - cp nomeArquivo nomeArqCopia //copia um arquivo
+    - rm nomeArquivo //remove um arquivo, pode ser passado algumas opções tal como: -f remove sem pedir confirmação e -r remove arquivos e subdiretorios
