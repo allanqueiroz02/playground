@@ -36,3 +36,13 @@ This repo is going to be used for having a history of what a I have studied/prac
     - shutdown -h now //desliga o computador, o now pode ser substituido por um valor (em minutos)
     - shutdown -r now //reinicia o computador, now pode ser substituido por um valor (em minutos)
     - uptime //mostra a quantidade de horas que o computador está ligado
+
+### 27/Fev
+
+- Ainda nos comandos linux, sobre user&group management:
+    - adduser //adiciona um usuário ao sistema, passando algumas informações
+    - useradd //assim como o adduser, também adiciona um usuario ao sistema, entretanto, nao pede informação adicionais, somente o nome do usuario
+    - passwd // para alterar a senha do usuario ativo. Se passar 'passwd nomeUsuario', altera a senha do usuario selecionado
+    - usermod nomeUsuario //altera informaçoes do usuario, baseado na opçao passada
+    - userdel nomeUsuario //remove o usuario do sistema
+    - su - nomeUsuario //permite alterar o usuario ativo no sistema
