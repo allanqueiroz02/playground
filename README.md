@@ -46,3 +46,14 @@ This repo is going to be used for having a history of what a I have studied/prac
     - usermod nomeUsuario //altera informaçoes do usuario, baseado na opçao passada
     - userdel nomeUsuario //remove o usuario do sistema
     - su - nomeUsuario //permite alterar o usuario ativo no sistema
+
+### 02/Mar
+
+- Alguns novos comandos para gerenciamento de grupos no linux:
+    - groupadd nomeGrupo //cria um novo grupo
+    - groups nomeUsuario //exibe os grupos do usuario
+    - groupdel nomeGrupo //deleta o grupo de usuario
+    - gpasswd nomeUsuario nomeGrupo // usado para administrar o arquivo /etc/group. Opções de comando:
+        -a: adicionar usuario
+        -d: excluir usuario
+        -r: remove a senha do grupo
