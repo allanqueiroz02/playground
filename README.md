@@ -57,3 +57,15 @@ This repo is going to be used for having a history of what a I have studied/prac
         -a: adicionar usuario
         -d: excluir usuario
         -r: remove a senha do grupo
+
+### 03/Mar
+
+- Vim (um editor no terminal)
+    - i //estando no 'normal-mode' habilita o 'insert-mode';
+    - esc //sai do 'insert-mode';
+    - x //no 'normal-mode' deleta caracteres
+    - u //no 'normal-mode' desfaz (tipo um ctrl+z);
+    - :w //no 'normal-mode' salva o arquivo mas não fecha o editor;
+    - :wq ou :x //no 'normal-mode' salva o arquivo e fecha o editor;
+    - :q! //no 'normal-mode' fecha o terminal e não salva as alterações não salvas;
+    - h j k l //no 'normal-mode' mode o cursor no 'normal-mode' - h(esquerda), j(baixo), k(cima), l(direita);
