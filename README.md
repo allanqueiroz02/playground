@@ -69,3 +69,15 @@ This repo is going to be used for having a history of what a I have studied/prac
     - :wq ou :x //no 'normal-mode' salva o arquivo e fecha o editor;
     - :q! //no 'normal-mode' fecha o terminal e não salva as alterações não salvas;
     - h j k l //no 'normal-mode' mode o cursor no 'normal-mode' - h(esquerda), j(baixo), k(cima), l(direita);
+
+### 04/Mar
+
+- Mais comandos no linux
+    - ls -l //lista os arquivos e diretorios no diretorio atual, a opção -l é usada para uma melhor leitura
+    - ls -a //lista todos os arquivos incluindo os escondidos
+    - ls -lh //lista os tamanhos em um formato de leitura humana
+    - tree /gera uma representação dos arquivos
+    - whois nomeDominio/ip //lista de registros de contem detalhes sobre a propriedade de dominio e os proprietarios
+    - lsblk //exibe informações sobre as partições do hd e de outros dispositivos
+    - fdisk -l //permite gerenciar partiçoes, a opção -l lista as partiçoes existentes no disco atual
+    - 
