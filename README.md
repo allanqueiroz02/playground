@@ -80,4 +80,16 @@ This repo is going to be used for having a history of what a I have studied/prac
     - whois nomeDominio/ip //lista de registros de contem detalhes sobre a propriedade de dominio e os proprietarios
     - lsblk //exibe informações sobre as partições do hd e de outros dispositivos
     - fdisk -l //permite gerenciar partiçoes, a opção -l lista as partiçoes existentes no disco atual
-    - 
+
+### 07/Mar
+
+- Mais linux 😴️
+    - Daemon: -Controla (inicia, reinicia, para, etc) um serviço provido pelo sistema. Por convenção a consoante sufixal "d", quando usada para denominar um "programa" e/ou "ferramenta" relacionada com algum serviço ou gama de serviços adjacentes, indica ou tenta indicar que ele é um daemon. Em outras palavras, usarei o httpd como exemplo; ele por sua vez quer dizer ou indicar que httpd representa o daemon HTTP (controle do webserver), assim como sshd tenta representar ou nos mostrar que ele é o daemon ssh e assim sucessivamente. 
+        - ps -aux //exibe informações sobre os processos que estão executando no pc. Algumas opções de comando:
+            -a : mostra os processos de todos os usuários.
+            -x : mostra os processos que não foram iniciados no console.
+            -u : fornece o nome do usuário e a hora de início do processo.
+            -A ou -e : mostra todos os processo.
+            -f : mostra a árvore de execução de comandos.
+        - ps -aux | grep nomePrograma //filtra processos, baseado no nomePrograma;
+        - pstree //lista os processos em execução usando o formato de arvore;
