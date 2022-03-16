@@ -93,3 +93,9 @@ This repo is going to be used for having a history of what a I have studied/prac
             -f : mostra a árvore de execução de comandos.
         - ps -aux | grep nomePrograma //filtra processos, baseado no nomePrograma;
         - pstree //lista os processos em execução usando o formato de arvore;
+
+### 15/03
+
+- React.js useMemo hook
+- React.js useCallback hook
+- Relembrando os comandos linux
