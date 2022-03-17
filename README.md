@@ -99,3 +99,13 @@ This repo is going to be used for having a history of what a I have studied/prac
 - React.js useMemo hook
 - React.js useCallback hook
 - Relembrando os comandos linux
+
+### 16/03
+
+- Estudo em comandos/atalhos linux
+    - ctrl+a //no terminal move o curso para o inicio da linha
+    - ctrl+e //no terminal move o cursor para o fim da linha
+    - ctrl+u //recorta a linha de onde o cursor está até o inicio da linha
+    - ctrl+xx //no terminal alterar o cursor para o inicio da linha e a posição atual
+    - ctrl+z //suspende o processo atual
+    - Para executar varios comandos no terminal, basta usaro o ';' ou '&&'. O ';' executa os comandos independentemente se o primeiro é verdade.. Já o '&&' somente executará o segundo comando se o primeiro for verdadeiro.
