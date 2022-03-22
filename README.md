@@ -109,3 +109,11 @@ This repo is going to be used for having a history of what a I have studied/prac
     - ctrl+xx //no terminal alterar o cursor para o inicio da linha e a posição atual
     - ctrl+z //suspende o processo atual
     - Para executar varios comandos no terminal, basta usaro o ';' ou '&&'. O ';' executa os comandos independentemente se o primeiro é verdade.. Já o '&&' somente executará o segundo comando se o primeiro for verdadeiro.
+
+### 21/03
+
+- Novos comandos no shell
+    - truncate -s 0 nomeArquivo //pode ser usado para zerar o tamanho de um arquivo, apagando seu conteudo mas sem excluir o arquivo.
+    - echo 'string' //mostra um texto na saida padrao, seguido por uma nova linha.
+    - find path -name 'expressao' //pesquisa arquivos em uma hierarquia de diretorios.
+    - less nomeArq //permite fazer a paginação de um arquivo.
