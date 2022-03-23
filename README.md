@@ -72,7 +72,7 @@ This repo is going to be used for having a history of what a I have studied/prac
 
 ### 04/Mar
 
-- Mais comandos no linux
+- Mais comandos no linux:
     - ls -l //lista os arquivos e diretorios no diretorio atual, a opção -l é usada para uma melhor leitura
     - ls -a //lista todos os arquivos incluindo os escondidos
     - ls -lh //lista os tamanhos em um formato de leitura humana
@@ -83,7 +83,7 @@ This repo is going to be used for having a history of what a I have studied/prac
 
 ### 07/Mar
 
-- Mais linux 😴️
+- Mais linux
     - Daemon: -Controla (inicia, reinicia, para, etc) um serviço provido pelo sistema. Por convenção a consoante sufixal "d", quando usada para denominar um "programa" e/ou "ferramenta" relacionada com algum serviço ou gama de serviços adjacentes, indica ou tenta indicar que ele é um daemon. Em outras palavras, usarei o httpd como exemplo; ele por sua vez quer dizer ou indicar que httpd representa o daemon HTTP (controle do webserver), assim como sshd tenta representar ou nos mostrar que ele é o daemon ssh e assim sucessivamente. 
         - ps -aux //exibe informações sobre os processos que estão executando no pc. Algumas opções de comando:
             -a : mostra os processos de todos os usuários.
