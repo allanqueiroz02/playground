@@ -72,7 +72,7 @@ This repo is going to be used for having a history of what a I have studied/prac
 
 ### 04/Mar
 
-- Mais comandos no linux
+- Mais comandos no linux:
     - ls -l //lista os arquivos e diretorios no diretorio atual, a opção -l é usada para uma melhor leitura
     - ls -a //lista todos os arquivos incluindo os escondidos
     - ls -lh //lista os tamanhos em um formato de leitura humana
