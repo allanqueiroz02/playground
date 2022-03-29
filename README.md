@@ -117,3 +117,10 @@ This repo is going to be used for having a history of what a I have studied/prac
     - echo 'string' //mostra um texto na saida padrao, seguido por uma nova linha.
     - find path -name 'expressao' //pesquisa arquivos em uma hierarquia de diretorios.
     - less nomeArq //permite fazer a paginação de um arquivo.
+ 
+ ### 28/03
+
+ - Aprofundado os conhecimentos em react.js
+    - useCallback;
+    - useMemo;
+    - Memo.
