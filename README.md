@@ -124,3 +124,8 @@ This repo is going to be used for having a history of what a I have studied/prac
     - useCallback;
     - useMemo;
     - Memo.
+### 29/03
+
+- Aprofundando conhecimentos em javascript/react.js part.2
+    - yield;
+    - useCallback;
