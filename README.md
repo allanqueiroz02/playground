@@ -129,3 +129,7 @@ This repo is going to be used for having a history of what a I have studied/prac
 - Aprofundando conhecimentos em javascript/react.js part.2
     - yield;
     - useCallback;
+
+### 09/04
+
+-Revisando alguns conceitos, tal como: 
