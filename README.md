@@ -133,3 +133,11 @@ This repo is going to be used for having a history of what a I have studied/prac
 ### 09/04
 
 -Revisando alguns conceitos, tal como: 
+
+### 17/04
+
+- Tentando retornar as atividades de estudos
+    - Visto a utilização dos ref, forwardRef & useRef;
+    - Revisado o useCallback e useMemo;
+    - Revisando Commits semanticos;
+    - Ininciado estudos com yup.
