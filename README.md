@@ -141,3 +141,8 @@ This repo is going to be used for having a history of what a I have studied/prac
     - Revisado o useCallback e useMemo;
     - Revisando Commits semanticos;
     - Ininciado estudos com yup.
+
+### 26/04
+
+- Retornando as atividades de estudos, 
+    - optional chaining
