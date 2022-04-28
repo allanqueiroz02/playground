@@ -35,12 +35,14 @@ const App = () => {
       console.log("My street is Mr. Fuck Me YEAH");
     },
   };
+  //optional chaining with ?.
   setTimeout(() => {
     const myVar = user.street?.name;
     if (!myVar) return console.log("não é verdadeiro, ", myVar);
 
     return console.log("é true, ", myVar);
   }, 4000);
+  //optional chaining with ?.()
   setTimeout(() => {
     user.myStreet?.();
   }, 2000);
@@ -52,8 +54,23 @@ const App = () => {
   };
   let userGuest = {};
 
+  //optional chaining with ?.()
   console.log(userAdmin.admin?.());
   console.log(userGuest.admin?.());
+
+  //optional chaining with ?.[]
+  const KEY = "name";
+  const user1 = { name: "José" };
+  const user2 = null;
+  const user3 = { address: { street: "Rua 01" } };
+
+  setTimeout(() => {
+    console.log(">>> ",user1?.[KEY]);
+    console.log(">>> ",user1?.["name"]);
+    console.log(">>> ",user2?.[KEY]);
+    console.log("-", user3?.address?.["street"]);
+    console.log("-", user3?.address?.[KEY]);
+  }, [3000]);
 
   return (
     <React.Fragment>
