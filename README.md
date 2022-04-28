@@ -4,7 +4,7 @@ This repo is going to be used for having a history of what a I have studied/prac
 
 ### 25/Fev
 
-### Decide revisar alguns conceitos de estados de processos:
+* Decide revisar alguns conceitos de estados de processos:
 - O que é um processo 
     - É um programa que está em execução.
 - PCB (Process Control Block)
@@ -146,3 +146,12 @@ This repo is going to be used for having a history of what a I have studied/prac
 
 - Retornando as atividades de estudos, 
     - optional chaining
+
+### 27/04
+
+- Atividades de estudos de hoje:
+    - Continuação dos estudos de optional chaining;
+    - Storybook;
+    - Stored Procedure;
+    - Revisado os conceitos de gerencia de estados de processo;
+    - Revisado alguns comandos no linux.
