@@ -155,3 +155,8 @@ This repo is going to be used for having a history of what a I have studied/prac
     - Stored Procedure;
     - Revisado os conceitos de gerencia de estados de processo;
     - Revisado alguns comandos no linux.
+
+### 02/05
+
+- Conceitos com:
+    - Yup;
