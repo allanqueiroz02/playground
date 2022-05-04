@@ -160,3 +160,8 @@ This repo is going to be used for having a history of what a I have studied/prac
 
 - Conceitos com:
     - Yup;
+
+### 03/05
+
+- Mais Yup;
+- O método .fromEntries() do Object.
