@@ -165,3 +165,8 @@ This repo is going to be used for having a history of what a I have studied/prac
 
 - Mais Yup;
 - O método .fromEntries() do Object.
+
+### 05/05
+
+- ++ yup;
+- Iniciado react hook form.
