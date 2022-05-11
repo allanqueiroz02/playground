@@ -3,38 +3,45 @@ import * as yup from "yup";
 import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 
+import TextField from "@material-ui/core/TextField";
+
 const schema = yup.object().shape({
   name: yup.string().required(),
   age: yup.number().integer().positive(),
 });
-
-const defaultValues = {
-  name: "",
-  age: 0,
-};
 
 const App = () => {
   const {
     handleSubmit,
     register,
     formState: { errors },
-  } = useForm({
-    defaultValues,
-    resolver: yupResolver(schema),
-  });
+  } = useForm();
 
   function submit(data) {
-    console.log(JSON.stringify(data));
+    console.log(data);
   }
 
   return (
     <React.Fragment>
       <h1>Hello World</h1>
       <form onSubmit={handleSubmit(submit)}>
-        <input {...register("name")} type="text" placeholder="nome" />
-        {errors.name && "First name is required"}
-        <input {...register("age")} type="number" placeholder="idade" />
-        {errors.age && "Age must be positive number"}
+        <input
+          placeholder="FIRST_NAME"
+          {...register("firstName", {
+            required: true,
+            onChange: (e) => {
+              const newString = Number(e.target.value);
+              return newString;
+            },
+          })}
+        />
+        {errors.firstName && <span>Campo obrigatório</span>}
+        <input
+          type="number"
+          placeholder="AGE"
+          {...register("age", { maxLength: 2 })}
+        />
+        {errors.age && <h6>Verifique a idade digitada</h6>}
         <hr />
         <button type="submit">Submeter!</button>
       </form>
