@@ -175,3 +175,7 @@ This repo is going to be used for having a history of what a I have studied/prac
 
     - Um pouco de regex c/ JS;
     - React hook form + yup.
+
+### 10/05
+
+    - Mais sobre React hook form.
