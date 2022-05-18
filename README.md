@@ -179,3 +179,7 @@ This repo is going to be used for having a history of what a I have studied/prac
 ### 10/05
 
     - Mais sobre React hook form.
+
+### 18/05
+
+    - Iniciado estudos de tests com  Jest e react testing library;
