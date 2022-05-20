@@ -168,8 +168,8 @@ This repo is going to be used for having a history of what a I have studied/prac
 
 ### 05/05
 
-- ++ yup;
-- Iniciado react hook form.
+    - ++ yup;
+    - Iniciado react hook form.
 
 ### 09/05
 
