@@ -187,3 +187,6 @@ This repo is going to be used for having a history of what a I have studied/prac
     - Um pouco mais de tests;
     - Mais estudos com react hook form e yup;
     - um pouco mais de regex.
+
+### 20/05
+    - Praticando tests com Jest e react testing library;
