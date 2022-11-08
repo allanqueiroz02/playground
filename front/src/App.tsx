@@ -1,12 +1,12 @@
 import React from "react";
-import { somaNumeros } from "./utils/";
+import { somaNumeros } from "./utils";
 
 const App = () => {
   const [list, setList] = React.useState([]);
   const [text, setText] = React.useState("");
 
   const handleAddText = React.useCallback(
-    (e) => {
+    (e: { preventDefault: () => void }) => {
       e.preventDefault();
       setList((oldV) => [...oldV, text]);
       setText("");
@@ -25,8 +25,12 @@ const App = () => {
           onChange={(e) => setText(e.target.value)}
           title="Um input"
         />
-        <button type="button" onClick={handleAddText}>ADD</button>
-        <button type="button" onClick={() => setList([])}>Clear</button>
+        <button type="button" onClick={handleAddText}>
+          ADD
+        </button>
+        <button type="button" onClick={() => setList([])}>
+          Clear
+        </button>
       </form>
       <hr />
       {list.length ? (
@@ -41,7 +45,7 @@ const App = () => {
         <h2>Sem ítens para exibir</h2>
       )}
       <hr />
-      <h4>Resultado com TS: {somaNumeros(1, 3, 4)}</h4>
+      <h4>Resultado com TS: {somaNumeros(1, 3)}</h4>
     </div>
   );
 };

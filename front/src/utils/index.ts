@@ -1,3 +1,4 @@
-import somaNumeros from "./somaNumeros/index";
+import somaNumeros from "./somaNumeros";
+import areaTriangulo from "./areaTriangulo";
 
-export { somaNumeros };
+export { somaNumeros, areaTriangulo };
