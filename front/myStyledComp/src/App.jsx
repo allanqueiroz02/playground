@@ -7,7 +7,7 @@ const Main = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #f1f1f1;
+  background-color: #4287f5;
   height: 100vh;
 `;
 
