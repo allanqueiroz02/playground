@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styled from "styled-components";
 
-import { Button, Input } from "./components";
+import { Button, Input, Input2 } from "./components";
 
 const Main = styled.div`
   display: flex;
@@ -12,7 +12,7 @@ const Main = styled.div`
 `;
 
 const Title = styled.h1`
-  color: #fff;
+  color: ${({ variant }) => (variant ? "#38e543" : "#fff")};
   font-size: 100px;
 `;
 
@@ -29,6 +29,11 @@ const MyResult = styled.h3`
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 `;
 
+const ClonedButton = styled(Input2)`
+  color: #fff;
+  border-color: #fff;
+`;
+
 function App() {
   const [name, setName] = useState("");
 
@@ -39,9 +44,15 @@ function App() {
   return (
     <Main>
       <Container>
-        <Title>Vite + S-C</Title>
+        <Title variant>Vite + S-C</Title>
         <Button name="Teste" onClick={testes} />
-        <Input name="nome" value={name} onChange={setName} />
+        <Input name="nome" value={name} onChange={setName} bigger />
+        <Input2 bigger onClick={() => console.log("clique no Input2")}>
+          Input2 Button
+        </Input2>
+        <ClonedButton bigger as="a" onClick={() => console.log("CLONADO")}>
+          Foi clonado
+        </ClonedButton>
         <MyResult>{name}</MyResult>
       </Container>
     </Main>
