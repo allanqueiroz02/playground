@@ -39,6 +39,15 @@ const Rotate = styled.div`
   color: #80ee80;
 `;
 
+const StyledHr = styled.hr`
+  margin: 10px 0px;
+  width: 600px;
+  height: 7px;
+  color: red;
+  background-color: yellowgreen;
+  border-radius: 5px;
+`;
+
 const theme = {
   primary: {
     primaryColor: "#059862",
@@ -63,7 +72,7 @@ function App() {
           value={changeColorTitle}
           onClick={() => setChangeColorTitle((oldV) => !oldV)}
         />
-        <hr style={{ width: 115 }} />
+        <StyledHr />
         <CustomButton onClick={() => console.log("Consologzou")}>
           ENVIAR TUDO CARAIO
         </CustomButton>
