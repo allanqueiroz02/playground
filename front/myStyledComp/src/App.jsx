@@ -63,6 +63,7 @@ function App() {
           value={changeColorTitle}
           onClick={() => setChangeColorTitle((oldV) => !oldV)}
         />
+        <hr style={{ width: 115 }} />
         <CustomButton onClick={() => console.log("Consologzou")}>
           ENVIAR TUDO CARAIO
         </CustomButton>
