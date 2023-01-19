@@ -1,5 +1,5 @@
 {
-  "name": "back",
+  "name": "Backend com nodejs",
   "version": "1.0.0",
   "description": "a back-end playground for node.js+express+mongoDB",
   "main": "index.js",
