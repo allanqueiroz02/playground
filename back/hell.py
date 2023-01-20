@@ -1,11 +1,10 @@
 #!/usr/bin/python3
 # apenas um comentário
 
-import random
+print("Digite seu nome")
+name = input()
+print("Você digitou " + name + "?")
+answer = input("y para sim, n para não: ")
 
-my_number = 11
-
-if my_number > 3:
-    print('is greater!')
-print('if block code ended. Printed!')
-print(random.randrange(1, 6))
+if answer == "y":
+    print("Tudo certo então 😎")
