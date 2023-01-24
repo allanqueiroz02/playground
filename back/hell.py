@@ -1,10 +1,14 @@
 #!/usr/bin/python3
 # apenas um comentário
 
-print("Digite seu nome")
-name = input()
-print("Você digitou " + name + "?")
-answer = input("y para sim, n para não: ")
+#looping a string
+fruit = "Morango"
+for f in fruit:
+    print(f)
+print('.:-------------:.')
 
-if answer == "y":
-    print("Tudo certo então 😎")
+#find a string
+my_phrase = input("Passa a frase ae: ")
+#print("banana" in my_choice)
+my_choice = "banana" in my_phrase
+print("Resultado: " + str(my_choice))
