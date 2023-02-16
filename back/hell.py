@@ -1,14 +1,12 @@
 #!/usr/bin/python3
 # apenas um comentário
 
-#looping a string
-fruit = "Morango"
-for f in fruit:
-    print(f)
-print('.:-------------:.')
-
-#find a string
-my_phrase = input("Passa a frase ae: ")
-#print("banana" in my_choice)
-my_choice = "banana" in my_phrase
-print("Resultado: " + str(my_choice))
+#string = "good_day"
+b = "hello, world"
+print(b[2:])
+print(b[:4])
+print("--------")
+name = "Jacinto Pinto"
+first_numb = input("1º número: ")
+sliced = name[int(first_numb):len(name)]
+print(sliced)
