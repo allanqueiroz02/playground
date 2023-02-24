@@ -1,5 +1,8 @@
 "use strict";
-function somar(num1, num2) {
-  return num1 + num2;
+function greeting(firstName, lastName) {
+    if (lastName !== undefined)
+        return `Ah vtnc, ${firstName} ${lastName}, com carinho é claro`;
+    return `Tomar no cu, ${firstName}`;
 }
-console.log(`A soma é ${somar(123, 35)}`);
+console.log(greeting("Carlão", "Delas"));
+console.log(greeting("Josias"));
