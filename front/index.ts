@@ -5,3 +5,11 @@ function greeting(firstName: string, lastName?: string) {
 }
 console.log(greeting("Carlão", "Delas"));
 console.log(greeting("Josias"));
+
+const t = "MARIA";
+
+function showNameInLower(name?: string | undefined) {
+  return name!.toLowerCase();
+}
+
+console.log(showNameInLower(t));

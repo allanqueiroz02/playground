@@ -6,3 +6,8 @@ function greeting(firstName, lastName) {
 }
 console.log(greeting("Carlão", "Delas"));
 console.log(greeting("Josias"));
+const t = "MARIA";
+function showNameInLower(name) {
+    return name.toLowerCase();
+}
+console.log(showNameInLower(t));
